@@ -9,7 +9,7 @@
 #代码里有 name: 后面的内容随便改,冒号后面是有个空格的,如果修改固件名字就要考虑能不能显示出你想要的
 #
 
-name: Lede-OpenWrt 固件
+name: Wsy-Openwrt
 
 on:
   repository_dispatch:
@@ -19,7 +19,7 @@ on:
 #    branches:
 #      - master
 #    paths:
-#      - 'diy.config'
+      - 'diy.config'
 
 
 #release发布触发开始编译(只是一个触发条件,不会发布的,又麻烦,没卵用,不用研究)
