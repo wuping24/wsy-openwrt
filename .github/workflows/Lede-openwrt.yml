@@ -79,6 +79,16 @@ jobs:
         df -hT $PWD
         git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
+        
+    ##下载kenzok8/openwrt-packages的源代码 和 passwall依赖库kenzok8/small.git。
+    - name: Clone openwrt-packages code
+      run: |
+        cd lede/package &&  git clone https://github.com/kenzok8/openwrt-packages.git
+    
+        
+    - name: Clone small code
+      run: |
+        cd lede/package &&  git clone https://github.com/kenzok8/small.git
 
     - name: 加载feeds跟自定义插件
       run: |
