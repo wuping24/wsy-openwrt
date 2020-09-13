@@ -16,4 +16,4 @@
 sed -i '$a src-git lienol https://github.com/xiaorouji/openwrt-package' feeds.conf.default
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-sed -i '$a src-git siropboy thttps://github.com/siropboy/mypackages' feeds.conf.default
+sed -i '$a src-git liuran001 https://github.com/liuran001/openwrt-packages' feeds.conf.default
