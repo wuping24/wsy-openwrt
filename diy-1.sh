@@ -18,7 +18,6 @@ sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 sed -i '$a src-git Jerry https://github.com/jerrykuku/openwrt-package' feeds.conf.default
 sed -i '$a src-git dockerman https://github.com/Leo-Jo-My/luci-app-dockerman' feeds.conf.default
-sed -i '$a src-git rosy https://github.com/liuran001/openwrt-packages/tree/packages/luci-theme-rosy' feeds.conf.default
 
 
 
