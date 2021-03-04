@@ -13,9 +13,8 @@ name: x86 openwrt
 on:
   repository_dispatch:
   workflow_dispatch:
-    inputs:
-  schedule:
-    - cron: 0 4 * * *
+ ## schedule:
+  ##  - cron: 0 4 * * *
   watch:
     types: started
 
